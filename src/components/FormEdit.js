@@ -1,14 +1,13 @@
-import React, { Fragment } from "react";
 import { useForm } from "react-hook-form";
 
-const form = () => {
+const FormEdit = () => {
   const { register, handleSubmit } = useForm();
 
   return (
     <>
       <h2>Editar asignatura</h2>
 
-      <form>
+      <form className="form-react">
         <div className="form-control">
           <label>Nombre</label>
           <input type="text" {...register("name")} />
@@ -47,4 +46,4 @@ const form = () => {
   );
 };
 
-export default form;
+export default FormEdit;
