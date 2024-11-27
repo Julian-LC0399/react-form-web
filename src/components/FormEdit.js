@@ -7,7 +7,7 @@ const FormEdit = () => {
     <>
       <h2>Editar asignatura</h2>
 
-      <form className="form-react">
+      <form onSubmit={handleSubmit} className="form-react">
         <div className="form-control">
           <label>Nombre</label>
           <input type="text" {...register("name")} />
