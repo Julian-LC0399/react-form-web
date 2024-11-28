@@ -88,7 +88,7 @@ const FormValidation = () => {
                 })} />
                 {errors.maximum_quota?.type === 'required' && <small className='fail'>El campo no puede estar vacío</small>}
                 {errors.maximum_quota?.type === "min" && <small className='fail'>El número mínimo de cupos de crédito es 1</small>}
-                {errors.maximum_quota?.type === 'max' && <small className='fail'>El número máximo de cupos de crédito es de 4</small>}
+                {errors.maximum_quota?.type === 'max' && <small className='fail'>El número máximo de cupos de crédito es de 40</small>}
             </div>
             <button type='submit'>Actualizar datos</button>
         </form>
