@@ -9,8 +9,8 @@ import Products from "./pages/Products";
 function App() {
   return (
     <div className="container">
-      <FormValidation />
       <Router>
+      <FormValidation />
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
