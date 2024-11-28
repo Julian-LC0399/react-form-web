@@ -4,7 +4,7 @@ import FormValidation from "./components/FormValidation";
 function App() {
   return (
     <div className="container">
-      <FormValidation/>
+      <FormValidation />
     </div>
   )
 }
