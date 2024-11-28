@@ -1,10 +1,10 @@
 import "./App.css";
-import FormEdit from './components/FormEdit'
+import FormValidation from "./components/FormValidation";
 
 function App() {
   return (
     <div className="container">
-      <FormEdit/>
+      <FormValidation/>
     </div>
   )
 }
