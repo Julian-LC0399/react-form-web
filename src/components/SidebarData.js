@@ -1,7 +1,8 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
+import * as HiAcademicCap  from "react-icons/hi";
+import * as GiTeacher from "react-icons/gi";
+import * as MdLibraryBooks from "react-icons/md";
 
 export const SidebarData = [
   {
@@ -14,19 +15,19 @@ export const SidebarData = [
   {
     title: 'Estudiantes',
     path: '/estudiantes',
-    icon: <IoIcons.IoIosPaper />,
+    icon: <HiAcademicCap.HiAcademicCap />,
     cName: 'nav-text'
   },
   {
     title: 'Profesores',
     path: '/profesores',
-    icon: <IoIcons.IoIosPaper />,
+    icon: <GiTeacher.GiTeacher />,
     cName: 'nav-text'
   },
   {
     title: 'Asignaturas',
     path: '/asignaturas',
-    icon: <FaIcons.FaCartPlus />,
+    icon: <MdLibraryBooks.MdLibraryBooks />,
     cName: 'nav-text'
   },
 ];
