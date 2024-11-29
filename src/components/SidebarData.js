@@ -2,6 +2,7 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as HiAcademicCap  from "react-icons/hi";
 
 export const SidebarData = [
   {
@@ -14,7 +15,7 @@ export const SidebarData = [
   {
     title: 'Estudiantes',
     path: '/estudiantes',
-    icon: <IoIcons.IoIosPaper />,
+    icon: <HiAcademicCap.HiAcademicCap />,
     cName: 'nav-text'
   },
   {
